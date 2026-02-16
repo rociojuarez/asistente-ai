@@ -1,4 +1,4 @@
-# proyectoM1 – Asistente de soporte al cliente
+# M1 – Asistente de soporte al cliente
 
 CLI que envía una pregunta del usuario a la API de OpenAI y devuelve una respuesta en JSON estructurado (`answer`, `confidence`, `actions`) más métricas por ejecución. El repositorio es autocontenido; el único requisito externo es una API key de OpenAI.
 
