@@ -1,4 +1,4 @@
-# Informe breve – Asistente de soporte al cliente (proyectoM1)
+# Informe breve – Asistente de soporte al cliente (M1)
 
 ## 1. Visión de arquitectura
 
