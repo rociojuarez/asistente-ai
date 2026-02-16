@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-02-16T12:00:00+00:00",
+    "tokens_prompt": 312,
+    "tokens_completion": 89,
+    "total_tokens": 401,
+    "latency_ms": 1245.32,
+    "estimated_cost_usd": 8.9e-05
+  },
+  {
+    "timestamp": "2026-02-16T16:11:59.593921+00:00",
+    "tokens_prompt": 727,
+    "tokens_completion": 142,
+    "total_tokens": 869,
+    "latency_ms": 4324.83,
+    "estimated_cost_usd": 0.000194
+  },
+  {
+    "timestamp": "2026-02-16T22:02:10.304634+00:00",
+    "tokens_prompt": 725,
+    "tokens_completion": 148,
+    "total_tokens": 873,
+    "latency_ms": 4042.15,
+    "estimated_cost_usd": 0.000198
+  }
+]
