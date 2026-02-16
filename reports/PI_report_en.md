@@ -32,7 +32,7 @@ El proyecto ofrece un asistente de soporte al cliente que recibe una pregunta de
 
 **Por qué CoT:** Hacer explícito el razonamiento mejora la consistencia y facilita depurar o mejorar respuestas inspeccionando `chain_of_thought`. Además fomenta respuestas de soporte más estructuradas.
 
-**Por qué few-shot aquí:** El entregable exigía al menos algunos ejemplos few-shot en el prompt. Añadimos dos ejemplos pregunta→JSON completos para reducir la deriva de formato y anclar el asistente en flujos de soporte típicos. El trade-off es un prompt más largo (más tokens de entrada por petición).
+**Por qué few-shot:** Se elije para tener algunos ejemplos few-shot en el prompt. Añadimos dos ejemplos pregunta→JSON completos para reducir la deriva de formato y anclar el asistente en flujos de soporte típicos. El trade-off es un prompt más largo (más tokens de entrada por petición).
 
 ---
 
@@ -60,13 +60,6 @@ Para reproducir: desde la raíz del proyecto con el venv activado, ejecutar `pyt
 ---
 
 ## 4. Desafíos y posibles mejoras
-
-**Limitaciones actuales**
-
-- No hay RAG ni base de conocimiento interna: las respuestas dependen solo del conocimiento previo del modelo y del prompt.
-- No hay capa de moderación ni seguridad: las entradas adversarias o fuera de tema no se filtran antes de la llamada a la API.
-- Los tests que llaman a la API consumen tokens y requieren un `OPENAI_API_KEY` válido.
-- Coste y latencia dependen de la longitud del prompt (los ejemplos few-shot aumentan los tokens de entrada).
 
 **Posibles mejoras**
 
